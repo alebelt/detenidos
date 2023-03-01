@@ -1,0 +1,35 @@
+
+  <mat-card>
+    <mat-card-content fxLayout="column" fxLayoutAlign="center center">
+      <div gdColumns="repeat(3, 48px)" gdGap="1rem">
+        
+      </div>
+    </mat-card-content>
+  </mat-card>
+  <mat-card>
+    <mat-card-content fxLayout="column" fxLayoutAlign="center center">
+  
+        <div fxFlex="auto" fxLayout="column">
+            <mat-form-field fxFlex="grow">
+                <mat-label>Usuario</mat-label>
+                <input name="username" matInput required>
+                <!-- <mat-error *ngIf="loginForm.get('username').hasError('required')">Debe ingresar su nombre de usuario</mat-error> -->
+            </mat-form-field>
+            <mat-form-field fxFlex="grow">
+                <mat-label>contraseña</mat-label>
+                <input type="text" name="password" matInput required>
+                <button mat-icon-button matSuffix matTooltip="Mostrar Clave" type="button">
+                    <mat-icon>person</mat-icon>
+                </button>
+                <mat-hint>Haz click en el ojo para visualizar la contraseña</mat-hint>
+               
+            </mat-form-field>
+        </div>
+
+
+      <button mat-raised-button color="primary">Start</button>
+      <button mat-raised-button routerLink="/dashboard" color="primary">Login</button>
+   
+    
+    </mat-card-content>
+  </mat-card>

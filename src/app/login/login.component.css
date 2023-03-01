@@ -1,0 +1,88 @@
+@media (min-width: 300px) {
+    .ubicacion {
+        padding-right: 10%;
+    }
+}
+
+@media (min-width: 1366px) {
+    .ubicacion {
+        padding-right: 12%;
+    }
+}
+
+@media (min-width: 1920px) {
+    .ubicacion {
+        padding-right: 15%;
+    }
+}
+
+.container {
+    max-width: 90%;
+    text-align: center;
+  }
+  .code-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .code {
+    border-radius: 5px;
+    font-size: 60px;
+    height: 100px;
+    width: 90px;
+    border: 1px solid #eee;
+    margin: 1%;
+    text-align: center;
+    font-weight: 300;
+    -moz-appearance: textfield;
+  }
+  .code::-webkit-outer-spin-button,
+  .code::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .code:valid {
+    border-color: #3498db;
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.25);
+  }
+  .info {
+    background-color: #eaeaea;
+    display: inline-block;
+    padding: 10px;
+    line-height: 20px;
+    max-width: 400px;
+    color: #777;
+    border-radius: 5px;
+  }
+
+  .medioToggle{
+    width: 50%;
+  }
+
+  .linkHover:hover{
+    cursor: pointer;
+    color: #5ab1e4;
+  }
+
+  mat-card {
+    max-width: 400px;
+    margin: 2em auto;
+    text-align: center;
+  }
+  
+  .game-field {
+    width: 48px;
+    height: 48px;
+    background-color: #f0f0f0;
+    line-height: 48px;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .playing .game-field {
+    cursor: pointer;
+  }
+  
+  button, mat-slide-toggle {
+    margin-bottom: 2rem;
+  }
